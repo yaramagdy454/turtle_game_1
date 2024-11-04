@@ -53,5 +53,7 @@ This file launches the Turtlesim node along with the spawner and base_controller
         spawner: The script that handles spawning and removing turtles.
         turtle_controller: The script that controls the movement of the base turtle.
         
-        ![Screenshot from 2024-11-04 18-49-38](https://github.com/user-attachments/assets/f9488fcf-0a47-4b4d-932e-889e3a8fd232)
+        
+        
+![Screenshot from 2024-11-04 18-49-38](https://github.com/user-attachments/assets/f9488fcf-0a47-4b4d-932e-889e3a8fd232)
 
