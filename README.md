@@ -10,8 +10,6 @@ cd ~/your_ros2_workspace/src
 
 git clone https://github.com/yaramagdy454/turtle_game_1.git
 
-Build the Workspace
-
 cd ~/your_ros2_workspace
 
 colcon build
