@@ -8,7 +8,6 @@ This is an engaging implementation of a spawn-and-catch game using ROS 2 and Tur
 
 cd ~/your_ros2_workspace/src
 
-### **Clone the repository**
 git clone https://github.com/yaramagdy454/turtle_game_1.git
 
 Build the Workspace
