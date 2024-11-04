@@ -1,53 +1,38 @@
-## **Spawn Turtle Catch Game**
+# **Spawn Turtle Catch Game**
 
 This is an engaging implementation of a spawn-and-catch game using ROS 2 and Turtlesim. The game involves a base turtle chasing and catching randomly spawned turtles. Each time a turtle is caught, a new target appears in a different random position, and the process continues.
-Game Flow
 
-    Locating Random Positions: The game determines random coordinates within the Turtlesim environment.
-    Spawning New Turtles: A new turtle is spawned at a random location whenever a target is caught.
-    Identifying Distance: The base turtle continuously calculates its distance from the closest target.
-    Equating the Distance: The base turtle moves towards the target until it gets close enough to "catch" it.
-    Killing the Turtle: Once the base turtle reaches the target, the target turtle is removed, and a new target is spawned.
 
 Installation and Running the Game
 Clone the Repository
 
 bash
-
-# Navigate to your ROS 2 workspace's source directory
 cd ~/your_ros2_workspace/src
 
-# Clone the repository
+## **Clone the repository**
 git clone https://github.com/yaramagdy454/turtle_game_1.git
 
 Build the Workspace
 
 bash
 
-# Navigate to your ROS 2 workspace root
 cd ~/your_ros2_workspace
-
-# Build the workspace
 colcon build
 
-Source the Workspace
+## **Source the Workspace**
 
 bash
 
-# Source the workspace setup file
 source install/setup.bash
 
-Run the Game
+## **Run the Game**
 
 bash
 
-# Navigate to the launch directory of the package
 cd ~/your_ros2_workspace/src/turtle_game_1/launch
-
-# Launch the game
 ros2 launch my_robot_bringup demo.launch.py
 
-Code Explanation
+## **Code Explanation**
 spawner.py Code
 
 This script manages the spawning of target turtles in random locations and publishes their information.
