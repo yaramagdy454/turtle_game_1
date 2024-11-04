@@ -20,6 +20,7 @@ source install/setup.bash
 ### **Run the Game**
 
 cd ~/your_ros2_workspace/src/turtle_game_1/launch
+
 ros2 launch my_robot_bringup demo.launch.py
 
 ## **Code Explanation**
